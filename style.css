@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(245, 244, 245);
+    font-family: 'Inter', serif;
+}
+
+.container {
+    display: block;
+}
+
+.carousel {
+    position: relative;
+    width: 50%;
+    height: 40%;
+    margin: auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto;
+    height: 15%;
+    position: absolute;
+    top: 50%;
+    /* transform: translateY(-50%); */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+    color: lightgreen;
+}
+
+
+.carousel-item img {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.carousel-button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: lightgreen;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.carousel-button:hover {
+    background-color: rgb(54, 67, 186);
+}
+
+.slider {
+    margin: 100px 5px 0px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.slider h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 36px;
+    color: rgb(54, 67, 186);
+    margin-bottom: 20px;
+}
+
+.slide-track {
+    display: flex;
+    /* animation: scroll 20s linear infinite;
+    animation-delay: 3s; */
+}
+
+.slide>img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.slide-track>.slide {
+    width: 50%;
+    height: 50%;
+    margin-right: 20px;
+}
+
+a>img:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+a>img {
+    width: 65%;
+    height: 65%;
+}
+
+.btn-primary {
+    background-color: rgb(54, 67, 186);
+    border-color: rgb(54, 67, 186);
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.container a.text-reset {
+    text-decoration: none;
+}
+
+.container a.text-reset:hover {
+    text-decoration: underline;
+}
